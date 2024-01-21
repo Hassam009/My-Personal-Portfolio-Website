@@ -58,8 +58,8 @@ const Contact = () => {
 
   useEffect(() => {
     // Change the text of the "Danger" button based on the length of the name
-    if (name.length > 3) {
-      setButtonText(name);
+    if (name.length > 10) {
+      setButtonText("Chota naam Likho. Remove kro Esy");
     } else {
       setButtonText("Danger");
     }

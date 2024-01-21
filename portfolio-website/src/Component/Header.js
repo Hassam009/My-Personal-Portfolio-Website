@@ -19,6 +19,9 @@ const Header = () => {
           <li class="nav-item">
             <Link class="nav-link" to="/Contact">Contact</Link>
           </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/Services">Services</Link>
+          </li>
          
         </ul>
         <form class="d-flex">
