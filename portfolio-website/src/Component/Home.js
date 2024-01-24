@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Home = () => {
   const Wrapper = styled.section`
   .heroSection {
-    // background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    background-color:#daead6;
     //   url("Images/B1.jpg");
     // background-size: cover;
     color: white;
@@ -28,6 +28,12 @@ const Home = () => {
     height: 100%;
     object-fit: cover; /* Maintain image aspect ratio */
   }
+  .headings{
+    margin-top:4rem;
+  }
+  .btn{
+    margin-top:2rem;
+  }
   `;
 
   return (
@@ -38,8 +44,11 @@ const Home = () => {
           <div class="container">
             <div class="row">
               <div class="col-md-6">
-                <h1>Your H1 Content Goes Here</h1>
-                <h2>Your H2 Content Goes Here</h2>
+                <div className="headings">
+                <h1>I am Web Developer</h1>
+                <h2>I have Expert in React and Next js</h2>
+                <button type="button" class="btn btn-success">Read More</button>
+                </div>
               </div>
               <div class="col-md-6">
                 <div className="Image">
