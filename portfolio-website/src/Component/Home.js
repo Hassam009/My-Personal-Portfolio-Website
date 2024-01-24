@@ -6,7 +6,10 @@ const Home = () => {
 
 const Wrapper=styled.section`
 .heroSection{
-  Background-color:black;
+  background-image: url('Images/B2.jpg');
+}
+.text-center{
+  color:White
 }
 `
 
