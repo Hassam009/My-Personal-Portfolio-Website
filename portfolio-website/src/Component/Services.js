@@ -5,6 +5,7 @@ const Services = (props) => {
   return (
     <div className="container">
       <div className="row justify-content-center">
+      <h1 className='row justify-content-center'>MY SERVICES</h1>  
         <div className="col-md-3">
           <ServicesCards Title="Card 1" Description="I am content of Card 1" src="Images/B1.jpg"/>
         </div>
