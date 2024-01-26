@@ -4,21 +4,32 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  /* Skills.css */
 
   .skill-heading {
     color: #333; /* Change the color as needed */
   }
-
   .custom-progress {
     margin-top: 10px; /* Adjust margin as needed */
   }
+  .container {
+    margin-top:5rem;
+    background-color: #daead6;
+    min-width: 100%; /* Set min-width to 100% of the viewport width */
+    padding: 20px; /* Add padding to give some space between content and edges */
+  }
+
+  h1 {
+    text-align: center;
+  }  
 `;
 
 const Skills = () => {
   return (
     <>
-      <Wrapper className="container">
+      <Wrapper >
+        <div className="container">
+
+        
         <h1 className="text-center">My Skills</h1>
         <div className="row mx-auto">
           {/* First Row */}
@@ -102,6 +113,7 @@ const Skills = () => {
               ></div>
             </div>
           </div>
+        </div>
         </div>
       </Wrapper>
     </>

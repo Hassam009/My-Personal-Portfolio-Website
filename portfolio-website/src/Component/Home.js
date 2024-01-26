@@ -11,6 +11,7 @@ const Home = () => {
     // background-size: cover;
     color: white;
     height: 600px;
+    min-width: 100%;
     display: flex;
     align-items: center; /* Vertical centering */
   }
