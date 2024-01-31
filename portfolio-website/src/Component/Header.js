@@ -22,6 +22,9 @@ const Header = () => {
           <li class="nav-item">
             <Link class="nav-link" to="/Services">Services</Link>
           </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/Projects">Projects</Link>
+          </li>
          
         </ul>
         <form class="d-flex">
