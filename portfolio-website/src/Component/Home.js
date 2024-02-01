@@ -3,6 +3,7 @@ import React from "react";
 import styled from "styled-components";
 import Services from "./Services";
 import Skills from "./Skills";
+import Projects from "./Projects";
 const Home = () => {
   const Wrapper = styled.section`
   .heroSection {
@@ -61,9 +62,9 @@ const Home = () => {
           </div>
         </div>
         <Services></Services>
-       
       </Wrapper>
       <Skills></Skills>
+      <Projects></Projects>
     </>
   );
 };

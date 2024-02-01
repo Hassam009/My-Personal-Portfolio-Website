@@ -56,6 +56,8 @@ const Contact = () => {
   const [email, setEmail] = useState("Hasideveloper@gmail.com");
   const [buttonText, setButtonText] = useState("Danger");
 
+
+
   useEffect(() => {
     // Change the text of the "Danger" button based on the length of the name
     if (name.length > 10) {
