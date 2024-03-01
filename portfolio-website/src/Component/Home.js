@@ -7,15 +7,15 @@ import Projects from "./Projects";
 const Home = () => {
   const Wrapper = styled.section`
   .heroSection {
-    background-color:#daead6;
-    //   url("Images/B1.jpg");
-    // background-size: cover;
+    background-image: url("Images/hero.png"); /
+    background-size: cover;
+    background-color: #6c757d; /* Fallback color in case the image is not available */
     color: white;
-    height: 600px;
+    height: 670px;
     min-width: 100%;
     display: flex;
     align-items: center; /* Vertical centering */
-  }
+}
 
   .row {
     color: black;
@@ -27,7 +27,7 @@ const Home = () => {
   }
 
   .Image img {
-    width: 100%;
+    width: 67%;
     height: 100%;
     object-fit: cover; /* Maintain image aspect ratio */
   }
@@ -55,7 +55,7 @@ const Home = () => {
               </div>
               <div class="col-md-6">
                 <div className="Image">
-                  <img src="Images/B1.jpg" alt="" />
+                  <img src="Images/hassam2.png" alt="" />
                 </div>
               </div>
             </div>

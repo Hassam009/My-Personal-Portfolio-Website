@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ProjectsCards = ({ selectCategory }) => {
   const project = [
     { id: 1, category: "Html", image: "/Images/B4.jpg" /* other properties */ },
-    // { id: 1, category: "Html", image: "/Images/B1.jpg" /* other properties */ },
+    { id: 1, category: "Html", image: "/Images/B1.jpg" /* other properties */ },
     { id: 2, category: "CSS", image: "/Images/B5.jpg" /* other properties */ },
     { id: 3, category: "CSS", image: "/Images/B1.jpg" /* other properties */ },
     {
