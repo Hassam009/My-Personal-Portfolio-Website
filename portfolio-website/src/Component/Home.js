@@ -27,7 +27,7 @@ const Home = () => {
   }
 
   .Image img {
-    width: 67%;
+    width: 74%;
     height: 100%;
     object-fit: cover; /* Maintain image aspect ratio */
   }

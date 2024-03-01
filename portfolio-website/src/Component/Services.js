@@ -6,7 +6,8 @@ const Services = (props) => {
   const Wrapper = styled.section`
     .container {
       margin-top:5rem;
-      background-color: #daead6;
+      // background-color: #f7f7f7f7;
+      background-image: url("Images/shape1.png"); /
       min-width: 100%; /* Set min-width to 100% of the viewport width */
       padding: 20px; /* Add padding to give some space between content and edges */
     }
@@ -26,7 +27,7 @@ const Services = (props) => {
               <ServicesCards
                 Title="Card 1"
                 Description="I am content of Card 1"
-                src="Images/B1.jpg"
+                src="Images/coding.png"
               />
             </div>
             <div className="col-md-3">
@@ -43,13 +44,7 @@ const Services = (props) => {
                 src="Images/B5.jpg"
               />
             </div>
-            <div className="col-md-3">
-              <ServicesCards
-                Title="Card 3"
-                Description="I am content of Card 3"
-                src="Images/B4.jpg"
-              />
-            </div>
+          
           </div>
         </div>
       </Wrapper>
