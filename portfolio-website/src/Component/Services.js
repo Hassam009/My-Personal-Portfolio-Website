@@ -15,6 +15,17 @@ const Services = (props) => {
     h1 {
       text-align: center;
     }
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+    span{
+      display: inline-block;
+      text-decoration:none;
+      color:inherit; 
+    }
+     
   `;
 
   return (
@@ -44,7 +55,106 @@ const Services = (props) => {
                 src="Images/B5.jpg"
               />
             </div>
-          
+          </div>
+        </div>
+        <div className="pt-5 pb-5">
+          <div className="container">
+            <div className="row">
+              <div className="section-head col-sm-12">
+                <h4>
+                  <span>Why Choose</span>
+                </h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                  amet vel hic deserunt repellat temporibus, quas maiores?
+                  Molestias, voluptates atque!
+                </p>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Modern Design</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Market Strategy</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Business Growth</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div> 
+              </div>
+              
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Business Growth</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div> 
+              </div>
+              
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Business Growth</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div> 
+              </div>
+              
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Business Growth</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div> 
+              </div>
+              
+
+
+            </div>
           </div>
         </div>
       </Wrapper>
