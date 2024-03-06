@@ -8,7 +8,7 @@ const ProjectsCards = ({ selectCategory }) => {
     { id: 2, category: "CSS", image: "/Images/B5.jpg" /* other properties */ },
     { id: 3, category: "CSS", image: "/Images/B1.jpg" /* other properties */ },
     {
-      id: 3, category: "React",image: "/Images/B3.jpg" /* other properties */},
+      id: 3, category: "React",image: "/Images/B2.jpg" /* other properties */},
     // Add more projects as needed
   ];
 

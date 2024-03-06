@@ -151,6 +151,19 @@ const Services = (props) => {
                   </p>
                 </div> 
               </div>
+              <div className="col-lg-4 col-sm-6">
+                <div className="item">
+                  <span class="icon feature_box_col_one">
+                    <i className="fa fa-globe"></i>
+                  </span>
+                  <h6>Business Growth</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat, quod perferendis. Consectetur animi temporibus
+                    modi pariatur dolor expedita tenetur repellendus?
+                  </p>
+                </div> 
+              </div>
               
 
 
