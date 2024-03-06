@@ -62,7 +62,7 @@ const Services = (props) => {
             <div className="row">
               <div className="section-head col-sm-12">
                 <h4>
-                  <span>Why Choose</span>
+                  <span>Why Choose us </span>
                 </h4>
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
